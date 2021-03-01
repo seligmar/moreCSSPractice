@@ -1,6 +1,7 @@
 html {
   font-size: 12px; /* px means "pixels": the base font size is now 10 pixels high  */
   font-family: 'Open Sans', sans-serif; /* this should be the rest of the output you got from Google fonts */
+  color: green;
 }
 
 h1 {
@@ -13,13 +14,10 @@ li {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
-  color: turquoise;
   text-align: center;
 }
 
 img {
-  margin: 10px;
-  /* margin-left: 20%;
-  margin-right: 20%;
-  float: center; */
+  width: 80%;
+  margin: 1% 10% 1% 10%;
 }
