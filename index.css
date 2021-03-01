@@ -1,7 +1,8 @@
-html {
+body {
   font-size: 12px; /* px means "pixels": the base font size is now 10 pixels high  */
   font-family: 'Open Sans', sans-serif; /* this should be the rest of the output you got from Google fonts */
-  color: green;
+  /* color: white;
+  background-color: #992b2b; */
 }
 
 h1 {
@@ -20,4 +21,20 @@ li {
 img {
   width: 80%;
   margin: 1% 10% 1% 10%;
+}
+
+.tomb-img {
+  /* background-color: #657873; */
+  background-color: #d0f2dd;
+}
+
+.durga-img {
+  /* background-color: #5b84b3; */
+  /* background-color: #6897cc; favorite so far!*/
+  /* this is an acceptable option */
+  background-color: #c2deff;
+}
+
+.flowers-img {
+  background-color: #992b2b;
 }
