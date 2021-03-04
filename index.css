@@ -1,13 +1,18 @@
-body {
+html {
   font-size: 12px; /* px means "pixels": the base font size is now 10 pixels high  */
   font-family: 'Open Sans', sans-serif; /* this should be the rest of the output you got from Google fonts */
-  /* color: white;
-  background-color: #992b2b; */
+}
+
+body {
+  background: lightgray;
 }
 
 h1 {
   font-size: 60px;
   text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: black;
 }
 
 p,
@@ -19,8 +24,12 @@ li {
 }
 
 img {
-  width: 80%;
-  margin: 1% 10% 1% 10%;
+  /* width: 80%;
+  margin: 1% 10% 1% 10%; */
+  /* both above and below center the image  */
+  display: block;
+  margin: 1% auto;
+  border: 5px solid darkgrey;
 }
 
 .tomb-img {

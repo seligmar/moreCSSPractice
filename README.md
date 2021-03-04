@@ -23,3 +23,11 @@ Most common types of selectors:
 - padding, the space around the content. In the example below, it is the space around the paragraph text.
 - border, the solid line that is just outside the padding.
 - margin, the space around the outside of the border." -https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
+
+"The <body> is a block element, meaning it takes up space on the page. A block element can have margin and other spacing values applied to it. In contrast, images are inline elements. It is not possible to apply margin or spacing values to inline elements. So to apply margins to the image, we must give the image block-level behavior using display: block;." -https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
+
+Truly nifty training: https://www.youtube.com/watch?v=Sp9ZfSvpf7A
+
+styling priority in CSS:
+
+1. inline styling (hard-coded into html)
